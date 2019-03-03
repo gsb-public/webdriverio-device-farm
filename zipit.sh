@@ -2,4 +2,4 @@
 rm *.zip
 rm *.tgz
 npm-bundle
-zip -r aws-wdio-example-4 wdio-example-4-1.0.0.tgz
+zip -r wdio-device-farm  webdriverio-device-farm-1.0.0.tgz
