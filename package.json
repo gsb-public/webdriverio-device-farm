@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio-device-farm",
+  "version": "1.0.0",
+  "description": "WebdriverIO tests running on AWS Device Farms",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": "https://github.com/gsb-public/webdriverio-device-farm",
+  "keywords": [
+    "docker",
+    "webdriverio"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.0.2",
+    "wdio-mocha-framework": "^0.6.4",
+    "@wdio/sync": "^5.4.20",
+    "webdriverio": "^4.0.7",
+    "wdio-screenshot": "^0.6.0"
+  },
+  "bundledDependencies": [
+    "mocha",
+    "wdio-mocha-framework",
+    "@wdio/sync",
+    "webdriverio",
+    "wdio-screenshot"
+  ]
+}
