@@ -1,6 +1,6 @@
 # webdriverio-device-farm
 
-Runs full page screenshot tests for chrome and safari devices on the AWS Device Farm.
+Runs full page screenshot tests for chrome and safari devices using the AWS Device Farm cloud service.
 
 ## Setup
 
