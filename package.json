@@ -4,7 +4,8 @@
   "description": "WebdriverIO tests running on AWS Device Farms",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
+    "test.chrome": "./node_modules/.bin/wdio wdio.conf-chrome.js",
+    "test.safari": "./node_modules/.bin/wdio wdio.conf-safari.js"
   },
   "repository": "https://github.com/gsb-public/webdriverio-device-farm",
   "keywords": [

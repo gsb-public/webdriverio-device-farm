@@ -1,4 +1,4 @@
-console.log('in wdio.conf.js');
+console.log('in wdio.conf-safari.js');
 console.log(process.env.DEVICEFARM_DEVICE_NAME);
 console.log(process.env.DEVICEFARM_DEVICE_PLATFORM_NAME);
 
@@ -9,10 +9,10 @@ exports.config = {
     maxInstances: 10,
     path: '/',
     capabilities: [{
-        automationName: 'UiAutomator2',
+        automationName: 'XCUITest',
         deviceName:     process.env.DEVICEFARM_DEVICE_NAME,
         platformName:   process.env.DEVICEFARM_DEVICE_PLATFORM_NAME,
-        browserName:    'Chrome',          
+        browserName:    'Safari',          
         maxInstances:   10,
         // Add this option to prevent the anoying "Welcome"-message
         chromeOptions: {
