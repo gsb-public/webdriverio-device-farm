@@ -21,4 +21,10 @@ Runs full page screenshot tests for chrome and safari devices using the AWS Devi
 1) Select an execution time of 8 minutes (seems to workout most of the time.)
 1) Click on the 'Run test' button.
 
+## Tested with the following devices
+
+1) iPhone X 12
+1) Google Pixel 3 XL
+1) iPhone 7 11.0
+
 
