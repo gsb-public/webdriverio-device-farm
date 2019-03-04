@@ -23,8 +23,9 @@ Runs full page screenshot tests for chrome and safari devices using the AWS Devi
 
 ## Tested with the following devices
 
-1) iPhone X 12
 1) Google Pixel 3 XL
+1) iPhone 6
 1) iPhone 7 11.0
+1) iPhone X 12
 
 
