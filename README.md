@@ -28,4 +28,5 @@ Runs full page screenshot tests for chrome and safari devices using the AWS Devi
 1) iPhone 7 11.0 (works)
 1) iPhone X 12 (works)
 1) Samsung Galaxy S7 Edge (fails - socket timeout)
+1) Samsung Galaxy S9
 
